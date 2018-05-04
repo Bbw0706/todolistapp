@@ -1,0 +1,101 @@
+.author{
+  color: #fff;
+  margin-top: 20px;
+  text-shadow: 0px 0px 10px #222;
+}
+
+.App {
+  text-align: center;
+  background: #E4F1F6;
+  color:#347B98;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 0px 0px 2px 1px #999;
+  padding : 20px 20px 50px 20px;
+  margin-bottom: 50px;
+  border: 2px dotted #67AFCB;
+}
+
+.reference{
+  text-shadow: 0px 0px 10px #222;
+  color: #fff;
+}
+
+.Title{
+  margin-bottom: 20px;
+}
+
+hr{
+  border: 2px dotted #67AFCB;
+  width: 100%;
+}
+
+ul{
+  list-style : none;
+    padding: 0;
+}
+
+ul li{
+  font-size: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+ul li:hover{
+  text-decoration: line-through;
+}
+
+input[type=text]{
+  padding: 10px;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 2px dotted #347B98;
+  margin-bottom: 0;
+  width: 50%;
+}
+
+button{
+  padding: 10px;
+  font-size: 20px;
+  border: 2px dotted #347B98;
+  background: #1A3E4C;
+  color: #ccc;
+  transition: color 0.5s, background 0.5s;
+}
+
+button:hover{
+  color: #fff;
+  background: #092834;
+}
+
+@media (max-width: 1000px){
+  .App{
+    width: 50%;
+  }
+
+  input[type=text]{
+    width: 50%;
+    font-size: 15px;
+  }
+
+  button{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px){
+  .App{
+    width: 80%;
+  }
+
+  input[type=text]{
+    width: 50%;
+    font-size: 15px;
+  }
+
+  button{
+    font-size: 15px;
+  }
+}
